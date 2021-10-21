@@ -9,8 +9,7 @@ const MainNavbar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Nav className="me-auto" activeKey="/home">
                     <Nav.Item>
-                        <Nav.Link href="/home">Home</Nav.Link>
-                        
+                        <Nav.Link href="/home">Home</Nav.Link>  
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/blog">Blog</Nav.Link>

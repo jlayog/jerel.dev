@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import Message from "./Message";
+import { messages } from "../../datalist";
 
-const messages = [
-    "Hi, I am Jerel Layog. I am a Frontend Developer.",
-    "I love creating software and web apps.",
-    "Looking to hire?",
-    "Check out my work."
-];
 
 const DialogBox = () => {
   const [currentMessage, setCurrentMessage] = useState(0);
