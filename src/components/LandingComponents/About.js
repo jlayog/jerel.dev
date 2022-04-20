@@ -5,7 +5,6 @@ import DialogBox from './DialogBox';
 
 
 const About = () => {
-
     return(
         <section id="about">
             <Container>
