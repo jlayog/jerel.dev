@@ -8,10 +8,13 @@ main {
   font-family: 'pixelmix', sans-serif;
 }
 
+
+/* dialogue box on front page */
+
 .dialogWindow {
   background-color: #1d2459;
   padding: 1.5rem 2rem;
-  border-image: url('./assets/dialogboxbg.png')28 / 10px 10px 10px 10px stretch;
+  border-image: url('./assets/dialogboxbg.png') 28 / 10px 10px 10px 10px stretch;
   border-width: 5px;
   border-style: solid;
   overflow: hidden;
@@ -93,6 +96,42 @@ main {
   100% { top: 95%; }
 }
 
+/* Mobile accessibility */
+
+@media screen and (max-width: 992px) {
+  .dialogWindow {
+    position: absolute;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dialogWindow {
+    position: absolute;
+    top: 18%;
+    min-width: 250px;
+    height: 125px;
+  }
+  .dialogMessage {
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'pixelmix', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    height: 90%;
+  }
+  
+  .dialogMessage:after {
+    font-size: 1.0rem;
+    content: "|";
+    animation: caret 500ms linear infinite alternate;
+  }
+  .nextButton {
+    font-size: 0.8rem;
+  }
+}
+
+
 div svg {
   cursor: default;
 }
@@ -118,7 +157,7 @@ div svg {
 .skillbox {
   background-color: #1d2459;
   padding: 1.5rem 2rem;
-  border-image: url('./assets/dialogboxbg.png')28 / 10px 10px 10px 10px stretch;
+  border-image: url('./assets/dialogboxbg.png') 28 / 10px 10px 10px 10px stretch;
   border-width: 5px;
   border-style: solid;
   position: relative;
