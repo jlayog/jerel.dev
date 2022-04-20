@@ -17,12 +17,13 @@ const DialogBox = () => {
       setCurrentMessage(0);
     }
   };
+
   return (
     <div className="dialogWindow" onClick={handleClick}>
       <Message message={messages[currentMessage]} key={currentMessage} />
-      <span className="nextButton">▼</span>
+      <button className="nextButton">▼</button>
     </div>
-  );
+  );    
 };
 
 export default DialogBox;
