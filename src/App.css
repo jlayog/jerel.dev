@@ -113,21 +113,20 @@ main {
     height: 125px;
   }
   .dialogMessage {
-    color: #fff;
     font-size: 0.8rem;
-    font-family: 'pixelmix', sans-serif;
-    font-weight: 400;
-    margin-bottom: 0;
-    height: 90%;
   }
   
   .dialogMessage:after {
     font-size: 1.0rem;
-    content: "|";
-    animation: caret 500ms linear infinite alternate;
   }
   .nextButton {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dialogMessage {
+    font-size: 0.75rem;
   }
 }
 
