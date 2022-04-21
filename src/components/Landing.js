@@ -1,12 +1,16 @@
 import React from 'react';
-import Lottie from './LandingComponents/Lottie';
-import About from './LandingComponents/About';
+import Header from './Header';
+import Skills from './Skills';
+import Projects from './Projects';
+import Testimonials from './Testimonials';
 
 const Landing = () => {
     return(
         <div>
-            <Lottie />
-            <About />
+            <Header />
+            <Skills />
+            <Projects />
+            <Testimonials />
         </div>  
     )
 }

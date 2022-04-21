@@ -4,7 +4,6 @@ import animationData from '../../assets/background.json'
 
 const UncontrolledLottie = () => {
     
-
     const defaultOptions = {
       loop: true,
       autoplay: true, 
