@@ -7,7 +7,6 @@ import Testimonials from './Testimonials';
 const Landing = () => {
     return(
         <div>
-            <Header />
             <Skills />
             <Projects />
             <Testimonials />
