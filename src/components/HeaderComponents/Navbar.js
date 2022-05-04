@@ -3,6 +3,8 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 
 // !!! React-bootstrap has a bug where 'sticky="top"' will not function when enclosed in a div !!!
 // fixed: top may be better solution and has better browser support
+// TODO
+// FIX BLOG LINK
 const MainNavbar = () => {
     return(
         <Navbar expand="lg" variant="dark" bg="dark" sticky="top">
@@ -15,7 +17,7 @@ const MainNavbar = () => {
                                 <Nav.Link href="/">Home</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/blog">Blog</Nav.Link>
+                                <Nav.Link href="/blog">[<span className="inProgress">Blog</span> W.I.P]</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href="https://www.github.com/jlayog">Github</Nav.Link>

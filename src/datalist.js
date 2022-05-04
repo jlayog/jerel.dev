@@ -9,11 +9,6 @@ export const skills = [
   "JavaScript",
   "React.js",
   "Node.js",
-  "PHP",
-  "Liquid.js",
-  "MySQL",
-  "Vue.js"
-
 ];
 
 export const projects = [

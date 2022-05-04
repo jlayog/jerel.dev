@@ -139,7 +139,7 @@ div svg {
   color: #fff;
 }
 
-
+/* Skills */
 .skills-col-title {
   margin-bottom: 2rem;
 }
@@ -186,7 +186,14 @@ div svg {
   width: 2rem;
   margin-right: 25px;
 }
+/* SKILLS END */
 
 #projects p {
   color: #fff;
 }
+
+/* NAVBAR STYLES */
+.inProgress {
+  text-decoration: line-through;
+}
+/* NAVBAR STYLES END */
