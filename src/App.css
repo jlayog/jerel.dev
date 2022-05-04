@@ -87,7 +87,7 @@ main {
   height: auto;
   width: 4rem;
   cursor: pointer;
-  animation: bounce 2s ease infinite;
+  animation: bounce 1s ease infinite;
 }
 
 @keyframes bounce {

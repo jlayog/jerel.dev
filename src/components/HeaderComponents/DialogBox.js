@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import Message from "./Message";
 import { messages } from "../../datalist";
-
+import PulldownBtn from "./PulldownBtn";
 
 const DialogBox = () => {
   const [currentMessage, setCurrentMessage] = useState(0);
   const handleClick = () => {
     if (currentMessage < messages.length - 1) {
       setCurrentMessage(currentMessage + 1);
-    } else {
-      setCurrentMessage(0);
     }
+    // Cycles back to the beginning of the array
+    //  else {
+    //  setCurrentMessage(0);
+    //  }
   };
 
   return (
