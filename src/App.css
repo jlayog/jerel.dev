@@ -1,11 +1,15 @@
 @font-face {
-  font-family: 'pixelmix';
-  src: local('pixelmix'), url(./assets/fonts/pixelmix.ttf) format('truetype');
+  font-family: 'Kubasta';
+  src: local('Kubasta'), url(./assets/fonts/Kubasta.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'AtariGames';
+  src: local('AtariGames'), url(./assets/fonts/AtariGames.ttf) format('truetype');
 }
 
 main {
   background-color: #333969;
-  font-family: 'pixelmix', sans-serif;
+  font-family: 'AtariGames', sans-serif;
 }
 
 
@@ -33,15 +37,15 @@ main {
 
 .dialogMessage {
   color: #fff;
-  font-size: 1.1rem;
-  font-family: 'pixelmix', sans-serif;
+  font-size: 1.8rem;
+  font-family: 'Kubasta', sans-serif;
   font-weight: 400;
   margin-bottom: 0;
   height: 90%;
 }
 
 .dialogMessage:after {
-  font-size: 1.3rem;
+  font-size: 2.2rem;
   content: "|";
   animation: caret 500ms linear infinite alternate;
 }
@@ -94,6 +98,12 @@ main {
   0%   { top: 95%; }
   50%  { top: 97%; }
   100% { top: 95%; }
+}
+
+.witch-gif {
+  position: absolute;
+  top: 337px;
+  left: 665px;
 }
 
 /* Mobile accessibility */
