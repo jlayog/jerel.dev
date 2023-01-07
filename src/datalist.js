@@ -1,3 +1,10 @@
+
+import hpIcon from './assets/hp-sprite.png';
+import defIcon from './assets/def-sprite.png';
+import intelIcon from './assets/intelligence-sprite.png';
+import magicIcon from './assets/magic-sprite.png';
+import strIcon from './assets/str-sprite.png';
+
 export const messages = [
   "Hi, I am Jerel Layog. I am a Frontend Web Developer.",
   "I love creating software and web apps.",
@@ -9,6 +16,16 @@ export const skills = [
   "JavaScript",
   "React.js",
   "Node.js",
+  "Django",
+  "PHP",
+];
+
+export const statsIcon = [
+  hpIcon,
+  defIcon,
+  intelIcon,
+  magicIcon,
+  strIcon,
 ];
 
 export const projects = [

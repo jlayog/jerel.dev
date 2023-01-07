@@ -17,7 +17,7 @@ const MainNavbar = () => {
                                 <Nav.Link href="/">Home</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/blog">[<span className="inProgress">Blog</span> W.I.P]</Nav.Link>
+                                <Nav.Link href="/blog">Resume</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link href="https://www.github.com/jlayog">Github</Nav.Link>

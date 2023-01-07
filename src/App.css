@@ -6,6 +6,22 @@
   font-family: 'AtariGames';
   src: local('AtariGames'), url(./assets/fonts/AtariGames.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'TripleN';
+  src: local('TripleN'), url(./assets/fonts/TripleN.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bitfantasy';
+  src: local('Bitfantasy'), url(./assets/fonts/Bitfantasy.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'TinyUnicode';
+  src: local('TinyUnicode'), url(./assets/fonts/TinyUnicode.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'MMXSNES';
+  src: local('MMXSNES'), url(./assets/fonts/MMXSNES.ttf) format('truetype');
+}
 
 main {
   background-color: #333969;
@@ -33,6 +49,23 @@ main {
   max-width: 60%;
   width: 500px;
   height: 150px;
+}
+
+.dialogWindow2 {
+  background-color: #1d2459;
+  padding: 1.5rem 2rem;
+  border-image: url('./assets/dialogboxbg.png') 28 / 10px 10px 10px 10px stretch;
+  border-width: 5px;
+  border-style: solid;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+  z-index: 100;
+  min-width: 400px;
+  max-width: 60%;
+  width: 560px;
+  height: 115px;
+  margin-bottom: 30px;
 }
 
 .dialogMessage {
@@ -106,6 +139,16 @@ main {
   left: 665px;
 }
 
+.witch-gif .witchRun {
+  position: inherit;
+  animation: moveRight 2s linear infinite;
+}
+
+@keyframes moveRight {
+  0% {left: 0px;}
+  50% {left: 210px;}
+  100% {left: 450px;}
+}
 /* Mobile accessibility */
 
 @media screen and (max-width: 992px) {
@@ -147,6 +190,8 @@ div svg {
 
 .section-title {
   color: #fff;
+  font-size: 5em;
+  font-family: 'TripleN';
 }
 
 /* Skills */
@@ -161,6 +206,19 @@ div svg {
 
 .skills-col {
   margin-bottom: 25px;
+}
+
+.pixel-border {
+  border-style: solid;
+  border-image-slice: 36 36 36 36;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url('./assets/styled-border.png');
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ead4aa ;
+  border-image-outset: 2px;
 }
 
 .skillbox {
@@ -178,24 +236,13 @@ div svg {
 }
 
 .skill-text {
-  font-size: 20px;
+  font-family: 'Kubasta', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #222222;
 }
 
-.ioChip {
-  height: auto;
-  width: 4rem;
-  color: #f29585;
-  position: relative;
-  margin: 2rem 0 1rem;
-}
 
-.faCheck {
-  color: #73B954;
-  font-weight: 400;
-  height: auto;
-  width: 2rem;
-  margin-right: 25px;
-}
 /* SKILLS END */
 
 #projects p {
