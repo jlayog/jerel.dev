@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from './Header';
 import Skills from './Skills';
-import Projects from './Projects';
+import ProjectCard from './ProjectCard';
 import Testimonials from './Testimonials';
 
 const Landing = () => {
     return(
         <div>
             <Skills />
-            <Projects />
+            <ProjectCard />
             <Testimonials />
         </div>  
     )

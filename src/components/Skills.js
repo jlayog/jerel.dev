@@ -25,7 +25,7 @@ const Skills = () => {
                     <div className="pixel-border">
                         {statsIcon.map((icon, index) => (
                             <div key={icon}>
-                                <img src={icon} alt="icon" />
+                                <img className="skill-icon" src={icon} alt="icon" />
                                 <span className="skill-text">{skills[index]}</span>
                             </div>
                         ))}

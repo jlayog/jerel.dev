@@ -4,6 +4,7 @@ import defIcon from './assets/def-sprite.png';
 import intelIcon from './assets/intelligence-sprite.png';
 import magicIcon from './assets/magic-sprite.png';
 import strIcon from './assets/str-sprite.png';
+import commencement from './assets/projectimgs/commencement.png'
 
 export const messages = [
   "Hi, I am Jerel Layog. I am a Frontend Web Developer.",
@@ -16,7 +17,7 @@ export const skills = [
   "JavaScript",
   "React.js",
   "Node.js",
-  "Django",
+  "Terminalfour",
   "PHP",
 ];
 
@@ -30,15 +31,16 @@ export const statsIcon = [
 
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Commencement at University of Florida",
+    subtitle: "Skill requirements: ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "",
+      "I was the lead developer for this project and worked alongside 2 other developers and a designer. This a high profile site for visitors and students to receive information related to graduation.",
+    image: commencement,
+    link: "https://commencement.ufl.edu",
+    technology: magicIcon,
   },
   {
-    title: "React Tracks",
+    title: "Hamilton Center",
     subtitle: "React and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",

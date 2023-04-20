@@ -2,32 +2,12 @@
   font-family: 'Kubasta';
   src: local('Kubasta'), url(./assets/fonts/Kubasta.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'AtariGames';
-  src: local('AtariGames'), url(./assets/fonts/AtariGames.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'TripleN';
-  src: local('TripleN'), url(./assets/fonts/TripleN.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Bitfantasy';
-  src: local('Bitfantasy'), url(./assets/fonts/Bitfantasy.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'TinyUnicode';
-  src: local('TinyUnicode'), url(./assets/fonts/TinyUnicode.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'MMXSNES';
-  src: local('MMXSNES'), url(./assets/fonts/MMXSNES.ttf) format('truetype');
-}
+
 
 main {
   background-color: #333969;
-  font-family: 'AtariGames', sans-serif;
+  font-family: 'Kubasta', sans-serif;
 }
-
 
 /* dialogue box on front page */
 
@@ -191,7 +171,7 @@ div svg {
 .section-title {
   color: #fff;
   font-size: 5em;
-  font-family: 'TripleN';
+  font-family: 'Kubasta', 'sans-serif';
 }
 
 /* Skills */
@@ -235,6 +215,10 @@ div svg {
   height: 100%;
 }
 
+.skill-icon {
+  vertical-align: middle;
+}
+
 .skill-text {
   font-family: 'Kubasta', sans-serif;
   font-size: 25px;
@@ -247,10 +231,50 @@ div svg {
 
 #projects p {
   color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
+
+.projectCard {
+  background-color: #1d2459;
+  border-image: url('./assets/dialogboxbg.png') 28 / 10px 10px 10px 10px stretch;
+  border-width: 5px;
+  border-style: solid;
+  text-align: left;
+}
+
+.card-footer {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px 10px;
+  text-align: center;
+  border-style: solid;
+  border-image-slice: 36 36 36 36;
+  border-image-width: 10px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url('./assets/styled-border.png');
+  border-image-outset: 2px;
+  background-color: #ead4aa;
+}
+
+#projects .card-footer img {
+  vertical-align: text-bottom;
+  width: 7%;
+}
+
+#projects .card-link {
+  float: right;
 }
 
 /* NAVBAR STYLES */
-.inProgress {
-  text-decoration: line-through;
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#responsive-navbar-nav {
+  font-size: 30px;
 }
 /* NAVBAR STYLES END */
