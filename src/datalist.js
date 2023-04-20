@@ -5,6 +5,10 @@ import intelIcon from './assets/intelligence-sprite.png';
 import magicIcon from './assets/magic-sprite.png';
 import strIcon from './assets/str-sprite.png';
 import commencement from './assets/projectimgs/commencement.png'
+import hamilton from './assets/projectimgs/hamilton.png'
+import weatherapp from './assets/projectimgs/reactweatherapp.png'
+import rc from './assets/projectimgs/rc.png'
+
 
 export const messages = [
   "Hi, I am Jerel Layog. I am a Frontend Web Developer.",
@@ -32,36 +36,31 @@ export const statsIcon = [
 export const projects = [
   {
     title: "Commencement at University of Florida",
-    subtitle: "Skill requirements: ",
     description:
       "I was the lead developer for this project and worked alongside 2 other developers and a designer. This a high profile site for visitors and students to receive information related to graduation.",
     image: commencement,
     link: "https://commencement.ufl.edu",
-    technology: magicIcon,
   },
   {
     title: "Hamilton Center",
-    subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "",
+      "Role: Lead Developer. I worked alongside 1 designer for this site, along with the client to deliver a site requested by the governor. A site to provide information about western history and it's curriculum.",
+    image: hamilton,
+    link: "https://hamilton.center.ufl.edu",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "React Weather App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "",
+      "API and React.js practice. A site that provides weather forecasts for the day based on location input.",
+    image: weatherapp,
+    link: "https://weather-app-7dbc1.web.app",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Research Computing at University of Florida",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "",
+      "A redesign and restructure of an existing site. As project lead and the help with a UX designer, we managed to reduce the subpages and orphan pages by a significant amount. It is a site aimed towards AI and research.",
+    image: rc,
+    link: "https://rc.ufl.edu",
   },
 ];
 

@@ -11,9 +11,7 @@ const ProjectCard = () => {
             Things I've Built
           </h2>
           <p className="text-center">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            These are live sites requested by clients, and personal projects.
           </p>
         </div>
         <Container fluid>
@@ -21,12 +19,10 @@ const ProjectCard = () => {
           {projects.map((project) => (
             <Col md={6} key={project.title}>
               <Card bsPrefix="projectCard">
-                <Card.Img variant="top" src={project.image} />
+                <a href={project.link}><Card.Img variant="top" src={project.image} /></a>
                 <Card.Body>
                   <Card.Title className="text-white">{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
-                 
-                  <Card.Footer>Skill requirements: <img src={project.technology}/> <Button><Card.Link className="text-white" href={project.link}>Visit Site</Card.Link></Button></Card.Footer>
                 </Card.Body>
               </Card>
             </Col>
