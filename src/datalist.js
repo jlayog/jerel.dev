@@ -8,6 +8,7 @@ import commencement from './assets/projectimgs/commencement.png'
 import hamilton from './assets/projectimgs/hamilton.png'
 import weatherapp from './assets/projectimgs/reactweatherapp.png'
 import rc from './assets/projectimgs/rc.png'
+import directory from './assets/projectimgs/directory.png'
 
 
 export const messages = [
@@ -61,6 +62,13 @@ export const projects = [
       "A redesign and restructure of an existing site. As project lead and the help with a UX designer, we managed to reduce the subpages and orphan pages by a significant amount. It is a site aimed towards AI and research.",
     image: rc,
     link: "https://rc.ufl.edu",
+  },
+  {
+    title: "Directory for University of Florida",
+    description:
+      "Handled security issues, such as preventing sensitive student information from being displayed, and authorization for campus members.",
+    image: directory,
+    link: "https://directory.ufl.edu",
   },
 ];
 

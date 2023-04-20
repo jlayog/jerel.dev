@@ -5,17 +5,18 @@ import WitchRun from '../../assets/B_witch_run.gif';
 function Witch() {
   const [showWitchIdle, setShowWitchIdle] = useState(true);
 
-  const toggleGif = () => {
+  /* const toggleGif = () => {
       setShowWitchIdle(!showWitchIdle);
     };
   
     useEffect(() => {
     // do nothing
   }, [showWitchIdle]);
+  */
 
   
   return (
-    <div class="witch-gif" onClick={toggleGif}>
+    <div class="witch-gif" >
       {showWitchIdle ? (
         <img src={WitchIdle} alt="Idle Witch" />
       ) : (
