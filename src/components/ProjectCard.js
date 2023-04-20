@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../datalist";
-import { Container, Row, Col, Card, Button, CardGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card, } from 'react-bootstrap';
 
 const ProjectCard = () => {
   return (
@@ -17,7 +17,7 @@ const ProjectCard = () => {
         <Container fluid>
           <Row xs={1} sm={2} md={3} className="g-4">
           {projects.map((project) => (
-            <Col md={6} key={project.title}>
+            <Col md={6} sm={12} key={project.title}>
               <Card bsPrefix="projectCard">
                 <a href={project.link}><Card.Img variant="top" src={project.image} /></a>
                 <Card.Body>

@@ -6,6 +6,7 @@ import defIcon from './assets/def-sprite.png';
 import intelIcon from './assets/intelligence-sprite.png';
 import magicIcon from './assets/magic-sprite.png';
 import strIcon from './assets/str-sprite.png';
+import bowIcon from './assets/bow-sprite.png';
 import commencement from './assets/projectimgs/commencement.png'
 import hamilton from './assets/projectimgs/hamilton.png'
 import weatherapp from './assets/projectimgs/reactweatherapp.png'
@@ -21,23 +22,30 @@ export const messages = [
 ];
 
 export const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React.js",
-  "Node.js",
-  "Terminalfour",
-  "PHP",
-];
-
-export const statsIcon = [
-  hpIcon,
-  stamIcon,
-  strIcon,
-  defIcon,
-  intelIcon,
-  magicIcon,
-  luckIcon,
+  {
+    id: 1, skill: 'HTML', icon: hpIcon
+  },
+  {
+    id: 2, skill: 'CSS', icon: stamIcon
+  },
+  {
+    id: 3, skill: 'JavaScript', icon: strIcon
+  },
+  {
+    id: 4, skill: 'React.Js', icon: defIcon
+  },
+  {
+    id: 5, skill: 'Node.js', icon: intelIcon
+  },
+  {
+    id: 6, skill: 'Terminalfour', icon: magicIcon
+  },
+  { 
+    id: 7, skill: 'Vue.js', icon: bowIcon
+  },
+  {
+    id: 8, skill: 'PHP', icon: luckIcon
+  },
 ];
 
 export const projects = [

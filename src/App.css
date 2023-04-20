@@ -175,6 +175,7 @@ div svg {
 }
 
 /* Skills */
+
 .skills-col-title {
   margin-bottom: 2rem;
 }
@@ -270,7 +271,7 @@ div svg {
 }
 
 /* NAVBAR STYLES */
-.navbar {
+nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
 }

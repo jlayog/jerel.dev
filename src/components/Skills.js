@@ -1,10 +1,18 @@
 import React from 'react';
 import { skills } from '../datalist';
-import { statsIcon } from '../datalist';
 import { Container, Row, Col } from 'react-bootstrap';
 import WitchCharge  from '../assets/B_witch_charge.gif';
 
 const Skills = () => {
+    const splitData = (data) => {
+        const half = Math.floor(data.length / 2);
+        const left = data.slice(0, half);
+        const right = data.slice(half);
+
+        return {left, right};
+    };
+
+    const { left, right } = splitData(skills)
     return (
       <section id="skills">
         <Container>
@@ -21,14 +29,26 @@ const Skills = () => {
                         <img src={WitchCharge} alt="gif of a Witch charging her powers" />
                     </div>
                 </Col>
-                <Col md={3} sm={12} className="">
+                <Col md={5} sm={12}>
                     <div className="pixel-border">
-                        {statsIcon.map((icon, index) => (
-                            <div key={icon}>
-                                <img className="skill-icon" src={icon} alt="icon" />
-                                <span className="skill-text">{skills[index]}</span>
-                            </div>
-                        ))}
+                        <Row>
+                            <Col>
+                                {left.map((item) => (
+                                    <div key={item.id}>
+                                        <img className="skill-icon" src={item.icon} alt="icon" />
+                                        <span className="skill-text">{item.skill}</span>
+                                    </div>
+                                ))}
+                            </Col>
+                            <Col>
+                                {right.map((item) => (
+                                    <div key={item.id}>
+                                        <img className="skill-icon" src={item.icon} alt="icon" />
+                                        <span className="skill-text">{item.skill}</span>
+                                    </div>
+                                ))}
+                            </Col>
+                        </Row>
                     </div>
                 </Col>
             </Row>
