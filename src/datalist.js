@@ -1,5 +1,7 @@
 
 import hpIcon from './assets/hp-sprite.png';
+import stamIcon from './assets/stamina-sprite.png';
+import luckIcon from './assets/luck-sprite.png';
 import defIcon from './assets/def-sprite.png';
 import intelIcon from './assets/intelligence-sprite.png';
 import magicIcon from './assets/magic-sprite.png';
@@ -19,6 +21,8 @@ export const messages = [
 ];
 
 export const skills = [
+  "HTML",
+  "CSS",
   "JavaScript",
   "React.js",
   "Node.js",
@@ -28,10 +32,12 @@ export const skills = [
 
 export const statsIcon = [
   hpIcon,
+  stamIcon,
+  strIcon,
   defIcon,
   intelIcon,
   magicIcon,
-  strIcon,
+  luckIcon,
 ];
 
 export const projects = [

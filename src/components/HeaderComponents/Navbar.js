@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import Resume from '../../assets/jlayog_resume.pdf';
+import Resume from '../../assets/jlayog_resume23.pdf';
 
 // !!! React-bootstrap has a bug where 'sticky="top"' will not function when enclosed in a div !!!
 // fixed: top may be better solution and has better browser support
