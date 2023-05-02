@@ -145,12 +145,20 @@ main {
     min-width: 250px;
     height: 125px;
   }
+
+  .dialogWindow2 {
+    min-width: 250px;
+    height: 125px;
+  }
+  .dialogWindow2 .dialogMessage {
+    font-size: 1.1rem;
+  }
   .dialogMessage {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
   
   .dialogMessage:after {
-    font-size: 1.0rem;
+    font-size: 1.4rem;
   }
   .nextButton {
     font-size: 0.8rem;
@@ -159,10 +167,17 @@ main {
 
 @media screen and (max-width: 480px) {
   .dialogMessage {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .witch-gif {
+    display: none;
+  }
+}
+
+/* Mobile accessibility END */
 
 div svg {
   cursor: default;

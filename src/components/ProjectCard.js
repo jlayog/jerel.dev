@@ -11,7 +11,7 @@ const ProjectCard = () => {
             Things I've Built
           </h2>
           <p className="text-center">
-            These are live sites requested by clients, and personal projects.
+            These are live sites requested by clients, and personal projects. More can be found on my <a href="https://github.com/jlayog">Github</a>!
           </p>
         </div>
         <Container fluid>
